@@ -1,0 +1,13 @@
+[Unit]
+Description=Monitor Cluster
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/monitor
+Restart=always
+StandardInput=tty
+StandardOutput=tty
+TTYPath=/dev/tty1
+
+[Install]
+WantedBy=multi-user.target
