@@ -5,7 +5,7 @@ int main()
 {
     while(1)
     {
-        printf("Monitor desde meta-cluster7inch-uag!\n");
+        printf("Monitor desde meta-cluster-EmbedPhy!\n");
         fflush(stdout);
 
         sleep(3);
