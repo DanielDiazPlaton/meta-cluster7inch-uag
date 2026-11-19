@@ -1,6 +1,7 @@
 [Unit]
 Description=Monitor Cluster
-After=multi-user.target
+After=systemd-networkd.service
+Wants=systemd-networkd.service
 
 [Service]
 ExecStart=/usr/bin/monitor
